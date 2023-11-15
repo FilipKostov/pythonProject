@@ -66,11 +66,11 @@ class Explorer(Problem):
         return position==self.goal
 
 if __name__=='__main__':
-    print("Vnesi koordinati za kuca")
+    print("House coordinates:")
     house_x, house_y=input().split(", ")
     house_x=int(house_x)
     house_y=int(house_y)
-    print("Vnesi koordinati za coek")
+    print("Man coordinates:")
     man_x,man_y=input().split(", ")
     man_x=int(man_x)
     man_y=int(man_y)
